@@ -2,133 +2,455 @@
 
 <html>
 
-	<head>
-		<title>Portfolio - Diogo Sequeira</title>
-        
-        	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<head>
+    <title>Splaces</title>
 
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="products.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <script type="text/javascript" src="js/scripts.js"></script>
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-
-	</head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="products.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-	<body>
+</head>
+
+
+<body>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="logo" src="img/wildcard.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarResponsive">
-            <span class="navbar-toggler-icon"></span>
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/wildcard.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-                    
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="customerlogin.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                    </li>
 
                 </ul>
             </div>
 
         </div>
     </nav>
-			
-						
-			<div class="main-curri">
-				
-				
-				<ul class="caminho">
-                    <li><a href="index.html">Home</a></li>
-					<li>></li>
-					<li>Products</li>
-				</ul>
 
-				<h1 id="titulo" style="color: black">Products</h1>
-                
-                <p>Search for all the items below!</p>
-                
-                <div style="background-image: url('img/office.jpg')" class="miniatura">
-                      <a href="betrader.html">
-                    <div class="blackbox">
-                        <div class="blackbox-text">
+
+    <div class="container">
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <ul class="caminho">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>></li>
+            <li>Products</li>
+        </ul>
+
+        <h1 id="titulo" style="color: black">Products</h1>
+        <br>
+        <div style="background-image: url('img/office.jpg')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
                         <h1>Penthouse</h1>
                         <h2>300€&#47;hr</h2>
-                        </div>
                     </div>
-                          </a>
-                 </div>
-                
-                <div style="background-image: url('img/stair.jpg')" class="miniatura">
-                      <a href="senshi.html">
-                    <div class="blackbox">
-                        <div class="blackbox-text">
+                </div>
+            </a>
+        </div>
+
+        <div style="background-image: url('img/stair.jpg')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
                         <h1>Garage</h1>
                         <h2>300€&#47;hr</h2>
-                        </div>
                     </div>
-                          </a>
-                 </div>
-                
-                 <div style="background-image: url('img/bedroom.png')" class="miniatura">
-                      <a href="responsive1.html">
-                    <div class="blackbox">
-                        <div class="blackbox-text">
+                </div>
+            </a>
+        </div>
+
+        <div style="background-image: url('img/bedroom.png')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
                         <h1>Super Room</h1>
                         <h2>300€&#47;hr</h2>
-                        </div>
                     </div>
-                          </a>
-                 </div>
-                
-                
-                <div style="background-image: url('img/house.png')" class="miniatura">
-                      <a href="responsive2.html">
-                    <div class="blackbox">
-                        <div class="blackbox-text">
+                </div>
+            </a>
+        </div>
+
+
+        <div style="background-image: url('img/house.png')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
                         <h1>Tiny Room</h1>
                         <h2>300€&#47;hr</h2>
-                        </div>
                     </div>
-                          </a>
-                 </div>
-                
-            
-                <div style="background-image: url('img/toilet.jpg')" class="miniatura">
-                      <a href="slider.html">
-                    <div class="blackbox">
-                        <div class="blackbox-text">
+                </div>
+            </a>
+        </div>
+
+
+        <div style="background-image: url('img/toilet.jpg')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
                         <h1>Luxurious Bathroom</h1>
                         <h2>300€&#47;hr</h2>
-                        </div>
                     </div>
-                          </a>
-                 </div>
-                 
-                
-                <br>
+                </div>
+            </a>
+        </div>
 
-				<a class="back-link" href="index.html">&larr; Back<a>
+        <div style="background-image: url('img/academia.jpg')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
 
-			</div>	
+                    <div class="modal-dialog">
 
-			
+                        <div class="modal-content">
 
-	</body>
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
+                        <h1>Spacious Room</h1>
+                        <h2>300€&#47;hr</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div style="background-image: url('img/parking.jpg')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
+                        <h1>Parking Lot</h1>
+                        <h2>300€&#47;hr</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div style="background-image: url('img/garage.jpg')" class="miniatura">
+            <a href="#bannerformmodal" data-toggle="modal" data-target="#mymodal">
+                <div class="modal fade" id="mymodal">
+
+                    <div class="modal-dialog">
+
+                        <div class="modal-content">
+
+                            <div class="modal-header">
+
+                                <h3>ESTE PRODUTO E UMA GRANDA MERDA</h3>
+
+                            </div>
+
+                            <div class="modal-body">
+
+                                <p>Excelente superficie para nada</p>
+
+                            </div>
+
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Rent</button>
+
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="blackbox">
+                    <div class="blackbox-text">
+                        <h1>Luxurious Garage</h1>
+                        <h2>300€&#47;hr</h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+        <br>
+
+        <a class="back-link" href="index.html">&larr; Back</a>
+
+    </div>
+
+
+
+
+    <script>
+
+        function myFunction() {
+
+            alert("Please fill in all your details!");
+
+
+
+
+        }
+    </script>
+
+
+
+</body>
 
 </html>

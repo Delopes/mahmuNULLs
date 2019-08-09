@@ -1,73 +1,55 @@
-
-
 <!DOCTYPE html>
+
 
 <html lang="en">
 
 <head>
 
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+  <title>Splaces</title>
 
-    <link rel="stylesheet" type="text/css" href="logincss.css">
+  <link rel="stylesheet" type="text/css" href="logincss.css">
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/login.js"></script>
 </head>
 
 <body>
 
-    
+  <div id="loginForm">
+    <!------ Include the above in your HEAD tag ---------->
 
-<!------ Include the above in your HEAD tag ---------->
+    <div class="fullscreen-video-wrap">
+      <!-- video needs to start playing -->
+      <video src="video.mov" autoplay="true" loop="true"></video>
 
-                <div class="fullscreen-video-wrap">
-                <!-- video needs to start playing -->
-            <video src="video.mov" autoplay="true" loop="true"></video>
-            
-            </div>
-​
- <div class="header-overlay"></div>
-<div class="wrapper fadeInDown">
+    </div>
+    <div class="header-overlay"></div>
+    <div class="wrapper fadeInDown">
 
-  <div id="formContent">
+      <div id="formContent">
 
-​
+        <!-- Login Form -->
 
- <!-- Login Form -->
+        <form method="POST">
 
-    <form>
+          <h1>Sign In</h1>
 
-        <h1>Sign In</h1>
+          <input type="text" id="login" class="fadeIn second" name="login" placeholder="username">
 
-      <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+          <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
 
-      <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+          <input type="submit" id="submitBtn" class="fadeIn fourth" value="Log In">
 
-      <input type="submit" class="fadeIn fourth" value="Log In">
-
-    </form>
-
-​
-
- 
-
-​
-
+        </form>
+      </div>
+    </div>
   </div>
-
-</div>
-
 </body>
 
 </html>
-

@@ -257,8 +257,7 @@ html {
 
   
 
-  input[type=text] {
-
+  input[type=text], input[type=password]  {
     background-color: #f6f6f6;
 
     border: none;

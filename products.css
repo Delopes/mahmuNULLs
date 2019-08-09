@@ -1,8 +1,9 @@
 
 html,body {
-    margin: 0px;
+
+    margin: 0 auto;
     padding: 0px;
-    background-image: url(../img/background.jpg);
+
     
 }
 
@@ -58,68 +59,14 @@ body {
     height: 650px;
 }
 
-.profile-pic {
-   
-    width: 40%;
-    text-align: center;
-    
-    animation-name: profile-capa;
-    animation-duration: 2s;
-}
-.profile-title {
-    
-    vertical-align: top;
-    width: 59%;
-    
-     animation-name: titulo-capa;
-    animation-duration: 2s;
-    
-    
-}
-
-.profile-title h1 {
-    font-size: 58px;
-    margin-top: 200px;
-    font-weight:700;
-    text-transform: uppercase;
-}
-
-.profile-title span {
-    display: block;
-    color: #f27609;
-    margin-top: -10px;
-   
-}
-
-.profile-title h2 {
-    font-size: 16px;
-    font-weight: 100px;
-    margin-top: -25px;
-    color:grey;
-}
-
-.profile-pic img {
-    width: 320px;
-    border-radius: 320px;
-    margin-top: 100px;
-}
-
 .main-curri {
     
-    padding: 80px 180px 80px 100px;
+    /*padding: 80px 180px 80px 100px;*/
     
     animation-name: conteudo;
     animation-duration: 1s;
     
      
-}
-
-.cv-pic {
-    
-    float: left;
-    height: 250px;
-    margin-right: 20px;
-    margin-bottom: 20px;
 }
 
 .main-curri h1 {
@@ -381,6 +328,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
 }
+    
+    btn btn-default{
+        background: orange;
+    }
 
     
     
